@@ -1,0 +1,30 @@
+h1 {
+    font-weight: 800;
+    color: #ff0000;
+    font-family: arial, sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+    color: #000000;
+    font-family: arial, sans-serif;
+}
+
+p {
+    font-family: arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-weight: 500;
+        color: #ff0000;
+        border: 5px solid #000096;
+        max-width: 100%
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+}
