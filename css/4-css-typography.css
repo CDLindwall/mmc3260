@@ -1,5 +1,6 @@
 h1 {
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 60px;
     color: #ff0000;
     font-family: arial, sans-serif;
 }
@@ -17,10 +18,20 @@ p {
 @media screen and (max-width: 600px) {
 
     h1 {
-        font-weight: 500;
+        font-weight: 300;
+        font-size: 30px;
         color: #ff0000;
         border: 5px solid #000096;
         max-width: 100%
+    }
+    
+    h2 {
+        font-weight: 200;
+        color: #8FD8D8;
+    }
+    
+    p {
+        border: 5px dotted;
     }
     
     body {
